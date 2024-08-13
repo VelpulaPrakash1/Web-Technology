@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid;
+            margin-left: 30%;
+            padding: 20px;
+            width: 500px;
+            margin-top: 100px;
+            font-weight: 800;
+            background-image: url(./bg2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline wavy;
+        }
+        button{
+            border-radius: 15%;
+            margin-left: 45%;
+            background-color: rgb(103, 103, 245);
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <h1>E-Learning feedback form</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name"><BR></BR>
+        <label for="id">Student id</label>
+        <input type="text" id="id" required><BR></BR>
+        <label for="date">Date:</label>
+        <input type="date" id="date"><BR></BR>
+        <label for="from">From:</label>
+        <input type="text" id="from">
+        <label for="to">To:</label>
+        <input type="text" id="to"><BR></BR>
+        <label for="iname">Instructor:</label>
+        <input type="text" id="iname"><BR></BR>
+        <label for="content">Content of the day:</label>
+        <input type="text" id="content"><BR></BR>
+        <Fieldset>
+            <legend>feedback</legend>
+        </Fieldset><BR></BR>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
